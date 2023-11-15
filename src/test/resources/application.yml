@@ -1,0 +1,10 @@
+Spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5433/TestDBDemoTestUnit
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
